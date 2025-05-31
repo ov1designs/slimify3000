@@ -82,7 +82,7 @@ async function processWithClaude(input: string, type: 'food' | 'exercise') {
       'anthropic-version': '2023-06-01'
     },
     body: JSON.stringify({
-      model: 'claude-3-haiku-20240307',
+      model: 'claude-sonnet-4-20250514',
       max_tokens: 500,
       temperature: 0.1,
       messages: [{
